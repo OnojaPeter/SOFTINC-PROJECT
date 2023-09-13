@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+p, li{
+    font-weight: 400;
+    font-size: 22px;
+}
+.nav > li >a{
+    color: black;
+}
+li:hover{
+    color: blue;
+}
+
+/*--- Home Styles----*/
+.quote-icon{
+    height: 60px;
+    width: 60px;
+}
+.testimonial-text{
+    text-align: center;
+}
+.firstDiv-img{
+    display: none;
+}
+.firstDiv-h1-div{
+    position: relative;
+    padding-top: 3vh;
+    /* text-align: center; */
+}
+
+.aboutImg{
+    width: 100%;
+    height: auto;
+}
+
+/*--- About Styles----*/
+
+
+@media (min-width: 992px){
+
+    .quote-icon{
+        height: 143px;
+        width: 143px;
+    }
+    .testimonial-text{
+        text-align: left;
+    }
+    .span1{
+        padding-left: 12vh;;
+    }
+    .span2{
+        padding-left: 9vh;;
+    }
+    .firstDiv-img{
+        display: block;
+    }
+    .firstDiv-h1{
+        line-height: 5rem;
+    }
+    .firstDiv-h1-div{
+        position: absolute;
+        padding-top: 15vh;
+        /* text-align: left; */
+    }
+    .hero1-p{
+        padding-top: 10rem;
+    }
+
+}
