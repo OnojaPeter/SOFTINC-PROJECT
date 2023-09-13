@@ -2,6 +2,8 @@
 
 body{
     font-family: 'Lato', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
 }
 p, li{
     font-weight: 400;
